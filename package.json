@@ -9,6 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "homepage": "https://bartekppr.github.io/src/main.jsx"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
@@ -27,4 +29,5 @@
     "vite": "^7.1.2"
   }
 }
+
 
